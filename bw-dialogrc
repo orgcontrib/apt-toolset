@@ -1,0 +1,17 @@
+#!/bin/bash
+# dialog B&W theme
+config="$HOME/.dialogrc"
+cat <<EOF >"$config"
+use_shadow = OFF
+use_colors = OFF
+screen_color = (WHITE,BLACK,OFF)
+dialog_color = (WHITE,BLACK,OFF)
+title_color = (WHITE,BLACK,ON)
+border_color = (WHITE,BLACK,OFF)
+button_active_color = (BLACK,WHITE,ON)
+button_inactive_color = (WHITE,BLACK,OFF)
+item_selected_color = (BLACK,WHITE,ON)
+EOF
+if ! rg -q '^export DIALOGRC=' "$HOME/.bashrc"; then
+    echo 'export DIALOGRC="$HOME/.dialogrc"' >> "$HOME/.bashrc"
+fi
