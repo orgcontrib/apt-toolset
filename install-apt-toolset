@@ -1,0 +1,19 @@
+#!/bin/bash
+sudo apt -y install btrfs-progs
+sudo apt -y install exfat-fuse
+sudo apt -y install exfatprogs
+sudo apt -y install xfsprogs
+sudo apt -y install mmc-utils
+sudo apt -y install nfs-common
+sudo apt -y install apparmor-utils
+sudo apt -y install build-essential
+sudo apt -y install bmon cmake colordiff
+sudo apt -y install cryptsetup dialog
+sudo apt -y install dnsutils net-tools
+sudo apt -y install duf gdu git glow iftop
+sudo apt -y install ima-evm-utils keyutils
+sudo apt -y install lnav locate lvm2 mc pv
+sudo apt -y install pass parallel powertop
+sudo apt -y install rhash ripgrep rpi-imager
+sudo apt -y install sipcalc systemd-coredump
+sudo apt -y install wavemon wget whois
