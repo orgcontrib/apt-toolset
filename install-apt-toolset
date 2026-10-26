@@ -9,8 +9,8 @@ sudo apt -y install apparmor-utils
 sudo apt -y install build-essential
 sudo apt -y install bmon cmake colordiff
 sudo apt -y install cryptsetup dialog
-sudo apt -y install dnsutils net-tools
-sudo apt -y install duf gdu git glow iftop
+sudo apt -y install dnsutils net-tools duf
+sudo apt -y install gdu git glow gpm iftop
 sudo apt -y install ima-evm-utils keyutils
 sudo apt -y install lnav locate lvm2 mc pv
 sudo apt -y install pass parallel powertop
