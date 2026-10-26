@@ -12,8 +12,10 @@ sudo apt -y install cryptsetup dialog
 sudo apt -y install dnsutils net-tools duf
 sudo apt -y install gdu git glow gpm iftop
 sudo apt -y install ima-evm-utils keyutils
-sudo apt -y install lnav locate lvm2 mc pv
-sudo apt -y install pass parallel powertop
+sudo apt -y install lnav locate lvm2
+sudo apt -y install mc mtools pv
+sudo apt -y install pass parallel
+sudo apt -y install powertop
 sudo apt -y install rhash ripgrep
 sudo apt -y install sipcalc systemd-coredump
 sudo apt -y install wavemon wget whois
