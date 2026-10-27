@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt -y update && sudo apt -y upgrade
 sudo apt -y install btrfs-progs
 sudo apt -y install exfat-fuse
 sudo apt -y install exfatprogs
